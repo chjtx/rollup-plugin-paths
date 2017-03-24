@@ -1,4 +1,4 @@
-# rollup-plugin-resolve
+# rollup-plugin-paths
 
 Let you use the same variables at different directory, like this:
 
@@ -41,14 +41,14 @@ import 'jquery'
 ## Installation
 
 ```bash
-$ npm install --save-dev rollup-plugin-resolve
+$ npm install --save-dev rollup-plugin-paths
 ```
 
 ## Usage
 
 ```js
 // rollup.config.js
-import resolve from 'rollup-plugin-resolve'
+import resolve from 'rollup-plugin-paths'
 
 export default {
   entry: 'entry.js',
