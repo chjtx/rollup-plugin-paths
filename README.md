@@ -73,3 +73,13 @@ export default {
 ## License
 
 MIT
+
+## Log
+
+### v0.0.2 (2017-06-30)
+
+- 修复windows下路径错误的bug
+
+### v0.0.1 (2017-03-24)
+
+- 完成
