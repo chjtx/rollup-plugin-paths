@@ -47,9 +47,9 @@ module.exports = function (options) {
       if (updateId === importee) {
         return null
       } else {
+        updateId = path.resolve(path.dirname(rollupOptions.entry), updateId)
         // 将合并后的`\`转换为`/`，解决windows下的路径错误
-        updateId = path.resolve(path.dirname(rollupOptions.entry), updateId).replace(/\\/g, '/')
-        return rollupOptions.is_jtaro_module ? getRelativePath(importer, updateId) : updateId
+        return rollupOptions.is_jtaro_module ? getRelativePath(importer, updateId).replace(/\\/g, '/') : updateId
       }
     }
   }
