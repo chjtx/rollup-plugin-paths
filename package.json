@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-paths",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Let you use the same variables at different directory.",
   "main": "index.js",
   "scripts": {
